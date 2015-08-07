@@ -23,7 +23,7 @@ png(file = "plot4.png")
 par(mfcol = c(2,2), cex = 0.75)
 # 1st plot (from task part2)
 plot(padataf$DT, padataf$Global_active_power, type = "l", 
-     xlab = "", ylab = "Global Active Power(kilowatts)")
+     xlab = "", ylab = "Global Active Power")
 # 2nd plot (from task part3)
 plot(padataf$DT, padataf$Sub_metering_1, type="n",
      xlab = "", ylab = "Energy sub metering")
